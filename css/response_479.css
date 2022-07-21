@@ -66,6 +66,10 @@
     .advantages_slider .slick-dots .slick-active {
         background: #D8443C;
     }
+    header {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
     .header_logo img {
         width: 130px;
     }
@@ -79,13 +83,6 @@
     .first-section {
         padding-top: 60px;
         padding-bottom: 60px;
-    }
-    .header-contact {
-        flex-direction: column;
-    }
-    .header_email {
-        margin-right: 0px;
-        margin-bottom: 10px;
     }
     .header-contact .phone a {
         margin-right: 15px;
@@ -101,6 +98,19 @@
     .header-info .callback_btn {
         height: 50px;
     }
+    .header_email-text,
+    .header_phone-text {
+        font-size: 12px;
+    }
+    .header_email-icon, 
+    .header_phone-icon {
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .header_logo span {
+        font-size: 12px;
+    }
     .title::before {
         bottom: -12px;
     }
@@ -112,18 +122,6 @@
         width: 100%;
         margin-left: 0;
         margin-bottom: 27px;
-    }
-    .request form .field input {
-        height: 50px;
-    }
-    .request form .callback_btn {
-        height: 50px;
-        margin-top: 0;
-        width: 100%;
-        justify-content: center;
-    }
-    .request form .callback_btn span {
-        margin-right: 20px;
     }
     .footer_logo img {
         width: 40%;

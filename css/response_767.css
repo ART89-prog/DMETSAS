@@ -74,23 +74,6 @@
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .request_subtitle {
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 25px;
-    }
-    .request_title {
-        margin-bottom: 25px;
-    }
-    .request form .line {
-        flex-direction: column;
-        margin-left: 0px;
-        margin-bottom: 10px;
-    }
-    .request form .line > * {
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
     .footer-top {
         flex-direction: column;
         justify-content: center;
