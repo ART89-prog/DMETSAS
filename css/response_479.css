@@ -27,11 +27,10 @@
     }
     .slider_item-img-logo {
         position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 66px 31px;
+        top: 67%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
     }
     .slider_item-title {
         margin-top: 25px;
@@ -65,20 +64,28 @@
         margin-right: 8px;
     }
     .advantages_slider .slick-dots .slick-active {
-        background: #56994C;
+        background: #D8443C;
     }
     .header_logo img {
-        width: 40%;
+        width: 130px;
     }
     .callback_btn {
         height: 45px;
         line-height: 45px;
     }
-    .header-info_title {
+    .first-section_title {
         font-size: 29px;
     }
-    .header-top {
-        margin-bottom: 55px;
+    .first-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .header-contact {
+        flex-direction: column;
+    }
+    .header_email {
+        margin-right: 0px;
+        margin-bottom: 10px;
     }
     .header-contact .phone a {
         margin-right: 15px;

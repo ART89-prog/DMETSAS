@@ -11,8 +11,21 @@
     .header-top {
         flex-direction: column;
     }
-    .header_logo {
-        margin-bottom: 30px;
+    .first-section_text {
+        font-size: 16px;
+    }
+    .first-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .first-section_title br {
+        display: none;
+    }
+    .header_logo img {
+        width: 160px;
+    }
+    .header_email {
+        margin-right: 10px;
     }
     .header-contact {
         flex-direction: row;
@@ -23,7 +36,7 @@
         margin-right: 30px;
         margin-bottom: 0px;
     }
-    .header-info_title {
+    .first-section_title {
         font-size: 30px;
     }
     .header-info_text {
@@ -39,7 +52,10 @@
         margin-top: 13px;
     }
     .title::before {
-        bottom: 4px;
+        bottom: -15px;
+    }
+    .advantages_items {
+        margin-top: 60px;
     }
     .title {
         margin-bottom: 30px;
